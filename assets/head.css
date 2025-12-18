@@ -4,6 +4,9 @@
     color: white;
     background-color: #212529;
 }
+a{
+    text-decoration: none;
+}
 .section_main{
     background-color: #232323;
     height: 725px;
@@ -70,7 +73,7 @@
 .section_howitworks{
     background-color: #F8F7F3;
     padding-top: 50px;
-    height: 5116px;
+    height: 2116px;
 }
 .section_howitworks h1{
     padding-left: 70px;
@@ -105,6 +108,7 @@
     border: 1.98px solid #232323;
     border-radius: 19.8px;
     background-color: #E6F2FF;
+    box-shadow: 6px 6px 0 #222;
 }
 .img5{
     position: absolute;
@@ -115,4 +119,186 @@
 .howitworks_lower{
     display: flex;
     justify-content: center;
+}
+.whoneedshelp_upper{
+    margin-top: 100px;
+}
+.whoneedshelp_upper h1{
+    color: rgba(38, 38, 38, 1);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.wnh_upper_cards{
+    margin-top: 100px;
+    width: 1,170px;
+    height: 256.7px;
+    gap: 30px;
+}
+.upper_card{
+    width: 374px;
+    height: 208px;
+    border: 2px solid rgba(38, 38, 38, 1);
+    border-radius: 20px;
+    background-color: rgba(230, 242, 255, 1);
+}
+.upper_card p{
+    font-size: 26px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.upper_cardicn{
+    margin-left: 25px;
+    margin-top: 30px;
+    height: 70px;
+    width: 70px;
+}
+.upperimg3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 1770px;
+    left: 140px;
+}
+.lowercard{
+    background-color: rgba(255, 235, 180, 1);
+    width: 1200px;
+    height: 239.54px;
+    border-radius: 20px;
+    border: 1.98px solid rgba(38, 38, 38, 1);
+    box-shadow: 6px 6px 0 #222;
+}
+.lowercard p{
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.lowercard img{
+    margin-left: 25px;
+    margin-top: 30px;
+    height: 70px;
+    width: 70px;
+}
+.curators_function h1{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.functionimg4{
+    position: absolute;
+    width: 303px;
+    height: 90.33px;
+    top: 2390px;
+    left: 460px;
+}
+.card{
+    width: 1170px;
+    height: 709px;
+    border: 1.98px solid rgba(38, 38, 38, 1);
+    border-radius: 20px;
+    box-shadow: 6px 6px 0 #222;
+    position: absolute;
+    top: 2500px;
+}
+.card img{
+    position: absolute;
+    width: 1170px;
+    height: 709px;
+}
+.section_profit{
+    height: 1249px;
+    background-color: rgba(230, 242, 255, 1);   
+    padding-top: 450px;
+}
+.sectionprofit_container{
+    margin-left: 60px;
+}
+.sectionprofit_container h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.profit_card{
+    width: 352px;
+    height: 219px;
+}
+.profit_card h1{
+    font-size: 46px;
+    color: rgba(64, 84, 249, 1);
+}
+.profit_card p{
+    font-size: 22px;
+}
+.sectionprofit_container_cards{
+    gap: 70px;
+}
+.section_black_hren{
+    background-color: rgba(35, 35, 35, 1);
+    height: 463px;
+}
+.section_black_hren h1{
+    color: rgba(255, 255, 255, 1);
+}
+.section_black_hren_inside{
+    padding-top: 130px;
+}
+.section_black_hren_inside h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.section_black_hren_inside svg{
+    position: absolute;
+    top: 4420px;
+    left: 680px;
+}
+.sectionblackbutton button{
+    width: 310px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    height: 317px;
+}
+footer h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+.upfootimg{
+    height: 18px;
+    width: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.footer_contacts p{
+    margin-top: 5px;
+}
+.footer_contacts button{
+    margin-left: 20px;
+    height: 36px;
+    width: 216px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.ftrbtn{
+    background-color: rgba(86, 205, 108, 1);
+}
+.ftrbtn2{
+    background-color: rgba(97, 168, 222, 1);
+}
+.btnfootimg{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 2px;
+    margin-right: 15px;
+}
+.footer_socmedia{
+    gap: 10px;
+}
+.footer_appstores{
+    gap: 10px;
 }
